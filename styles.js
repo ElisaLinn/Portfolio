@@ -12,17 +12,17 @@ export const GlobalStyle =createGlobalStyle`
   --accent: #c171b2;
 
  /* Font styles */
-  --font-family: Varela, serif;
+  /* --font-family: Varela, serif; */
   /*
     use like:
     font: var(--font-body);
   */
-  --font-headline-1: normal 700 44px/48px var(--font-family);
+  /* --font-headline-1: normal 700 44px/48px var(--font-family);
   --font-headline-2: normal 700 32px/41px var(--font-family);
   --font-title: normal 700 16px/20px var(--font-family);
   --font-caption: normal 500 12px/15px var(--font-family);
   --font-caption--italic: italic 400 12px/15px var(--font-family);
-  --font-body: normal 400 16px/20px var(--font-family);
+  --font-body: normal 400 16px/20px var(--font-family); */
 
   /* Effect styles */
   /*
@@ -51,5 +51,14 @@ export const GlobalStyle =createGlobalStyle`
   --primary: #464da0;
   --secondary: #54285c;
   --accent: #8e3e7f;
-}
+  
+  /* Font styles - same as light theme */
+  /* --font-family: Varela, serif;
+  --font-headline-1: normal 700 44px/48px var(--font-family);
+  --font-headline-2: normal 700 32px/41px var(--font-family);
+  --font-title: normal 700 16px/20px var(--font-family);
+  --font-caption: normal 500 12px/15px var(--font-family);
+  --font-caption--italic: italic 400 12px/15px var(--font-family);
+  --font-body: normal 400 16px/20px var(--font-family);
+} */}
 `;

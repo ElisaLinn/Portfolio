@@ -1,10 +1,11 @@
+import { StyledMainHeaderTitle, StyledMainHeader } from "./StyledPortfolioMainHeader";
 
 export default function Header(){
     return(
-        <header>
-            <h1>Elisa Linnemannstöns</h1>
+        <StyledMainHeader>
+            <StyledMainHeaderTitle>Elisa Linnemannstöns</StyledMainHeaderTitle>
             <p>Junior Frontend Developer</p>
-            </header>
+            </StyledMainHeader>
         
     )
 }
