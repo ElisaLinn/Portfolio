@@ -5,11 +5,42 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle =createGlobalStyle`
 
 :root[data-theme="light"] {
-  --text: #080911;
-  --background: #fcfdfd;
-  --primary: #5f67b9;
-  --secondary: #cfa3d7;
-  --accent: #c171b2;
+   --color-primary: #5f67b9;
+  --color-secondary: #cfa3d7;
+  --color-accent: #c171b2;
+
+  /* neutrals */
+  --color-text: #080911;
+  --color-text-muted: rgba(8, 9, 17, 0.6);
+  --color-background: #fcfdfd;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f3f4f7;
+  --color-border: rgba(0, 0, 0, 0.12);
+
+  /* semantic */
+  --color-success: #4caf50;
+  --color-warning: #ffb300;
+  --color-error: #e53935;
+
+  /* interaction */
+  --primary-hover: #5159a1;
+  --primary-active: #464d90;
+
+  --accent-hover: #aa5f9d;
+  --accent-active: #8f4b84;
+
+  /* subtle accents */
+  --primary-light: #cad0f5;
+  --primary-dark: #3d4285;
+
+  --accent-light: #f2c6e8;
+  --accent-dark: #713b66;
+
+  /* shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.07);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.09);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.1);
+
 
  /* Font styles */
   /* --font-family: Varela, serif; */
