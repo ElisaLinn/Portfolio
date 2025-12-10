@@ -1,6 +1,6 @@
 import { StyledMainHeaderTitle, StyledMainHeader } from "./StyledPortfolioMainHeader";
 
-export default function Header(){
+export default function PortfolioMainHeader(){
     return(
         <StyledMainHeader>
             <StyledMainHeaderTitle>Elisa Linnemannstöns</StyledMainHeaderTitle>
